@@ -1,0 +1,144 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+
+.search-container {
+  text-align: center;
+  flex-grow: 1;
+}
+
+.search-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+#searchInput {
+  width: 300px;
+  height: 15px;
+  font-size: 13px;
+  border-radius: 5px;
+  padding: 5px;
+  padding-right: 20px;
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z' /%3E%3C/svg%3E");
+  background-size: cover;
+}
+
+.download-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  background: linear-gradient(to right, #930707, #b70202);
+  border-radius: 10px;
+  padding: 8px 16px;
+  margin-top: 10px;
+  width: 150px;
+  font-size: 13px;
+}
+
+.download-icon {
+  width: 15px;
+  height: 15px;
+  margin-left: 5px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  font-size: 12px;
+}
+
+table th {
+  background-color: rgb(37, 149, 229);
+  color: white;
+  border: 1px solid black;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  line-height: 20px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.green {
+  background-color: green;
+  color: white;
+  border: 1px solid black;
+}
+
+.red {
+  background-color: red;
+  color: white;
+  border: 1px solid black;
+}
+
+.blue {
+  background-color: blue;
+  color: white;
+  border: 1px solid black;
+}
+
+.reference-container {
+  text-align: center;
+  margin: 8px 0;
+}
+
+.reference-container .circle {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 20px;
+  font-weight: bold;
+  font-size: 12px;
+  margin-right: 5px;
+}
+
+.reference-container .circle.green {
+  background-color: green;
+  color: white;
+}
+
+.reference-container .circle.red {
+  background-color: red;
+  color: white;
+}
+
+.reference-container .circle.blue {
+  background-color: blue;
+  color: white;
+}
